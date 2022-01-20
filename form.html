@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FORM</title>
+	</head>
+	<body>
+		<form>
+			NAME:<input type="text" /><br />
+			DATE:<input type="date" placeholder="dd-mm-yy" min="01-01-2022" ><br />
+			STATE:
+		           <select>
+		           	<option>KERALA</option>
+		           	<option>KARNATAKA</option>
+		           	<option>TAMILNADU</option>
+		           	<option>MAHARASHTRA</option>
+		           	<option>GOA</option>
+		           </select><br />
+		        DISTRICTS:<input list="districts" />
+		        	  <datalist id="districts">
+		        	  	<option value="Karagod" />
+		        	  	<option value="Kannur" />
+		        	  	<option value="Palakkad" />
+		        	  	<option value="Malappuram" />
+		        	  	<option value="Eranakulam" />
+		        	  </datalist><br />
+		        GENDER:<br />
+		        Male:<input type="radio" name="Gender" value="M" />
+		        Female:<input type="radio" name="Gender" value="F" />
+		        Others:<input type="radio" name="Gender" value="T" /><br />
+		        Select languages:<br />
+		        Malayalam:<input type="checkbox" value="M" />
+		        English:<input type="checkbox" value="E" />
+		        Malayalam:<input type="checkbox" value="H" />
+		        Malayalam:<input type="checkbox" value="T" />
+		</form>
+	</body>
+</html>
