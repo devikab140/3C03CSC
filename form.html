@@ -5,7 +5,11 @@
 	</head>
 	<body>
 		<form>
-			NAME:<input type="text" /><br />
+			NAME:<input type="text" placeholder="username"/><br />
+                        Phone No:<input type="text" /><br />
+                        Password:<input type="password" placeholder="your password" /><br />
+                        <P>Enter the code sent to your email id</p><br />
+                        <input type="text">
 			DATE:<input type="date" placeholder="dd-mm-yy" min="01-01-2022" ><br />
 			STATE:
 		           <select>
@@ -17,21 +21,21 @@
 		           </select><br />
 		        DISTRICTS:<input list="districts" />
 		        	  <datalist id="districts">
-		        	  	<option value="Karagod" />
+		        	  	<option value="Kasaragod" />
 		        	  	<option value="Kannur" />
 		        	  	<option value="Palakkad" />
 		        	  	<option value="Malappuram" />
 		        	  	<option value="Eranakulam" />
 		        	  </datalist><br />
 		        GENDER:<br />
-		        Male:<input type="radio" name="Gender" value="M" />
-		        Female:<input type="radio" name="Gender" value="F" />
+		        Male:<input type="radio" name="Gender" value="M" /><br />
+		        Female:<input type="radio" name="Gender" value="F" /><br />
 		        Others:<input type="radio" name="Gender" value="T" /><br />
 		        Select languages:<br />
-		        Malayalam:<input type="checkbox" value="M" />
-		        English:<input type="checkbox" value="E" />
-		        Malayalam:<input type="checkbox" value="H" />
-		        Malayalam:<input type="checkbox" value="T" />
+		        Malayalam:<input type="checkbox" value="M" /><br />
+		        English:<input type="checkbox" value="E" /><br />
+		        Hindi:<input type="checkbox" value="H" /><br />
+		        Tamil:<input type="checkbox" value="T" /><br />
 		</form>
 	</body>
 </html>
